@@ -1,0 +1,34 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    margin: 0px;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: pixelate; 
+    src: url('SFPixelate.ttf') format('truetype');
+}
+#content {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#instructions {
+    font-family: pixelate; 
+    font-size: 15px;
+    color: bisque;
+}
+a.button {
+    text-decoration: none;
+    font-family: pixelate;
+    font-size: 150px;
+    color: deeppink;
+}
+a.button:hover {
+    transition: 0.5s;
+    font-size: 200px;
+    color: deepskyblue;
+}

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Play Nyan!</title>
+        <link rel="stylesheet" href="index_style.css" />
+        <script>
+            window.onload = function() {
+                var intro = document.getElementById('intro');
+                intro.loop = true;
+                intro.load(); 
+                intro.play();
+            }
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <audio id="intro" src="audio/codegeek.wav"></audio>
+            <p id="instructions">
+                PREVENT NYAN FROM GOING BACK TO THE TOASTER</p>
+            <p id="start">
+                <a href="main.html" class="button">NYAN!</a>
+            </p>
+        </div>
+    </body>
+</html>
